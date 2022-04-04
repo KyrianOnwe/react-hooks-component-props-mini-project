@@ -12,7 +12,7 @@ function App() {
       You're on your own from here! Follow the deliverables; test things out in
       the browser as you write your code; and good luck!
       <Header name={blogData.name} ></Header>
-      <About img1={blogData.image} about={blogData.about}></About>
+      <About image={blogData.image} about={blogData.about}></About>
       <ArticleList posts={blogData.posts}></ArticleList> 
 
     </div>
